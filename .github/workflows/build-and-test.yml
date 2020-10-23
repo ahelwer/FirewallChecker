@@ -3,6 +3,7 @@ on: [push|pull_request]
 jobs:
   build-and-test-projects:
     runs-on: windows-latest
+    steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-dotnet@v1
         with:
