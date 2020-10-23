@@ -1,6 +1,6 @@
 # FirewallChecker
 
-![Build & test](https://github.com/actions/ahelwer/firewallchecker/workflows/build-and-test/badge.svg?branch=cicd)
+![Build & test](https://github.com/actions/ahelwer/firewallchecker/workflows/build-and-test/badge.svg)
 
 A firewall analysis library using the Z3 SMT Solver from Microsoft Research.
 Includes console applications to check the equivalence of two firewalls, or analyze the action of a firewall on a single packet.
