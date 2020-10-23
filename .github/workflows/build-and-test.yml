@@ -1,0 +1,11 @@
+name: build-and-test
+on: [push|pull_request]
+jobs:
+  build-and-test-projects:
+    runs-on: windows-latest
+      - uses: actions/checkout@v2
+      - uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '3.1.x'
+      - run: dotnet build
+      - run: dotnet test
